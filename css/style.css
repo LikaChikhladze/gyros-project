@@ -1,6 +1,7 @@
 /* header */
 body {
   background-color: rgb(162, 217, 242);
+  cursor: pointer;
 
 }
 .header-wraper {
@@ -76,10 +77,13 @@ li a {
   font-size: 25px;
   font-family: 'BPG Ucnobi';
   color: rgb(154, 16, 16);
+  justify-content: center;
+
 }
 .section1 h1 {
   text-shadow: 4px 5px 17px rgb(252, 19, 3);
   transition: all 1s linear 0.5s;
+  margin-bottom: 20px;
 }
 .table-gyro {
   object-fit: cover;
@@ -89,6 +93,8 @@ li a {
   border-radius: 70px 30px;
   box-shadow: 7px 9px 15px rgb(55, 60, 209);
   transition: all 1s linear;
+  margin-bottom: 40px;
+
 }
 .circles {
   /* max-width: 100%; */
@@ -122,7 +128,6 @@ li a {
   line-height: 25px;
   font-family: 'BPG Ucnobi';
   text-shadow: 4px 5px 17px rgb(2, 60, 71);
-
 }
 .blocks img {
   width: 100%;
