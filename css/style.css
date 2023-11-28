@@ -1,6 +1,5 @@
 /* header */
 body {
-  height: 2000px;
   background-color: rgb(162, 217, 242);
 
 }
@@ -80,6 +79,7 @@ li a {
 }
 .section1 h1 {
   text-shadow: 4px 5px 17px rgb(252, 19, 3);
+  transition: all 1s linear 0.5s;
 }
 .table-gyro {
   object-fit: cover;
@@ -88,6 +88,7 @@ li a {
   height: 500px;
   border-radius: 70px 30px;
   box-shadow: 7px 9px 15px rgb(55, 60, 209);
+  transition: all 1s linear;
 }
 .circles {
   /* max-width: 100%; */
@@ -131,7 +132,11 @@ li a {
   border-radius: 54% 46% 48% 52% / 30% 33% 67% 70% 
   ;
   box-shadow: -7px 9px 15px rgb(40, 158, 243);
+  transition: all 1.5s linear;
 }
+
+
+
 /* section 3 */
 .section3 {
   margin-top: 70px;
@@ -144,6 +149,7 @@ li a {
   font-family: 'BPG Ucnobi';
   color: rgb(154, 16, 16);
   text-shadow: 4px 5px 17px rgb(252, 19, 3);
+  transition: all 1s linear 0.5s;
 }
 .boxes-wraper {
   width: 100%;
@@ -163,4 +169,62 @@ li a {
   object-fit: cover;
   border-radius: 32% 68% 39% 61% / 42% 44% 56% 58%  ;
   box-shadow:  7px 9px 15px rgb(40, 158, 243);
+  transition: all 1s linear;
+}
+
+
+
+/* hpovers */
+.section3 p:hover {
+  border-width: 1px;
+  border-color: rgb(53, 50, 50);
+  border-style: dotted;
+  border-left: none;
+  border-right: none;
+  font-size: 35px;
+  text-shadow:-8px 3px 17px rgb(58, 22, 240);
+}
+.section1 h1:hover {
+  border-width: 1px;
+  border-color: rgb(53, 50, 50);
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  font-size: 35px;
+  text-shadow:-8px 3px 17px rgb(58, 22, 240);
+
+}
+.blocks img:hover {
+  width: 120%;
+  height: 400px;
+}
+.table-gyro:hover {
+  box-shadow: -8px 3px 17px red;
+}
+.boxes img:hover {
+  width: 80%;
+  height: 400px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  /* padding-left: 50px; */
+  justify-content: space-between;
+}
+.footer p {
+  font-size: 20px;
+  color: rgb(4, 77, 123);
+}
+.icons-wrapper {
+  display: flex;
+}
+.icons a {
+  font-size: 30px;
+}
+.icons-a i {
+  color: rgb(4, 77, 123);
+}
+.icons i:not(.last-icon) {
+  margin-right: 20px;
 }
