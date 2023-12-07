@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px 20px 150px;
+  z-index: 200;
   /* background-color: lightblue; */
   /* background-image: linear-gradient(180deg, rgb(177, 177, 245), lightblue); */
 }
@@ -23,6 +24,7 @@ body {
   box-shadow: 2px 1px 15px rgb(64, 172, 244);
 
 }
+
 .nav-ul {
   display: flex;
 }
@@ -56,11 +58,11 @@ li a {
   margin-right: 45px;
   font-size: 17px;
 }
-.fa-bars {
+/* .fa-bars {
   color:rgb(55, 60, 209);
   font-size: 20px;
   display: none;
-}
+} */
 .conteiner {
   max-width: 1170px;
   width: 100%;
@@ -68,6 +70,12 @@ li a {
   /* background-color: aqua; */
   display: flex;
 }
+
+.header-wraper i {
+  display: none;
+}
+
+
 
 
 /* section 1 */
@@ -88,13 +96,12 @@ li a {
 .table-gyro {
   object-fit: cover;
   margin-top: 40px;
-  width: 100%;
+  width: 90%;
   height: 500px;
   border-radius: 70px 30px;
   box-shadow: 7px 9px 15px rgb(55, 60, 209);
   transition: all 1s linear;
   margin-bottom: 40px;
-
 }
 .circles {
   /* max-width: 100%; */
@@ -141,7 +148,6 @@ li a {
 }
 
 
-
 /* section 3 */
 .section3 {
   margin-top: 70px;
@@ -155,6 +161,11 @@ li a {
   color: rgb(154, 16, 16);
   text-shadow: 4px 5px 17px rgb(252, 19, 3);
   transition: all 1s linear 0.5s;
+}
+.section3 p::after {
+  content: '\263A';
+  margin-left: 10px;
+  font-size: 35px;
 }
 .boxes-wraper {
   width: 100%;
@@ -208,7 +219,7 @@ li a {
 }
 .boxes img:hover {
   width: 80%;
-  height: 400px;
+  height: 400px; 
 }
 
 /* footer */
@@ -232,4 +243,65 @@ li a {
 }
 .icons i:not(.last-icon) {
   margin-right: 20px;
+}
+
+
+/* section 4 */
+
+.veggie-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mini-block {
+  width: 30%;
+  text-align: center;
+  margin-top: 60px;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+}
+.mini-block img {
+  width: 100%;
+  border-radius: 200px;
+  margin-bottom: 20px;
+}
+.mini-block p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.order-bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 165, 9);
+  margin-top: 20px;
+  border-radius: 200px;
+}
+.order-bt i {
+  margin-right: 10px;
+}
+.section4 {
+  margin-bottom:80px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.menu-click {    
+  background-color: rgb(55, 60, 209);
+  margin-top: 60px;
+  /* max-width: 300px;
+  width: 100%; */
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  border-radius: 100px;
+  color: black;
+  font-family: 'BPG Nuskha Modern';
+}
+.menu-click-a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
