@@ -379,3 +379,18 @@ li a {
 .title2-1 {
   color: #959595;
 }
+
+/* section 6 */
+
+.section6 {
+  background-color: #1d7033;
+  width: 100%;
+  margin-top: 20px;
+  height: 50px;
+}
+.section6-ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
