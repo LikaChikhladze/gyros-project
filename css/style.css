@@ -252,6 +252,7 @@ li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-bottom: 50px;
 }
 .mini-block {
   width: 30%;
@@ -263,7 +264,15 @@ li a {
   width: 100%;
   border-radius: 200px;
   margin-bottom: 20px;
+  transition: all 1s linear;
 }
+
+.mini-block img:hover {
+  width: 400px;
+  box-shadow: 8px -6px 20px green;
+}
+
+
 .mini-block-p  {
   width: 100%;
   height: 80px;
@@ -282,7 +291,13 @@ li a {
   height: 50px;
   font-size: 18px;
   text-shadow: -5px 7px 14px rgb(53, 44, 44);
+  transition: all 1s linear;
 }
+
+.order-bt:hover {
+  background-color: rgb(179, 35, 35);
+}
+
 .order-bt i {
   margin-right: 10px;
 }
@@ -332,6 +347,8 @@ li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-radius: 200px;
+  margin-top: 10px;
 }
 .bg-image {
   background-image: url('../images/goddess.jpeg');
@@ -339,6 +356,7 @@ li a {
   height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 200px;
 }
 .bg-image2 {
   background-image: url('../images/goddess.jpeg');
@@ -349,6 +367,8 @@ li a {
   background-size: cover;
   transform: scaleX(-1);
   transform: scaleX(-1);
+  border-radius: 200px;
+
 }
 .title1 {
   text-align: center;
@@ -385,12 +405,45 @@ li a {
 .section6 {
   background-color: #1d7033;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
   height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 70px;
+  background-image: linear-gradient( 180deg, #165416, #36bb36);
+  box-shadow:-2px -8px 7px rgb(3, 66, 3);
 }
 .section6-ul {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.sec6-li a {
+  color: white;
+  text-shadow: -4px 2px 7px rgb(214, 210, 210);
+}
+.red a{
+  color: rgb(129, 15, 15);
+  text-decoration: underline;
+}
+
+/* combo menu */
+
+.combo img {
+  height: 351px;
+  transition: all 1s linear;
+}
+
+.combo img:hover {
+  height: 400px;
+}
+
+/* salads-menu */
+.olives {
+  height: 351px;
+  transition: all 1s linear;
+}
+.olives:hover {
+  height: 400px;
 }
