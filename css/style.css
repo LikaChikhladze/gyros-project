@@ -483,3 +483,81 @@ li a {
   height: 300px;
   object-fit: cover;
 }
+
+/* section8 */
+.section8 {
+  flex-direction: column;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+}
+.about-us1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.about-us1-1 {
+  display: flex;
+}
+.wrapbox1 p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 500px;
+  width: 100%;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  line-height: 20px;
+}
+.fa-pagelines {
+  color: rgb(15, 131, 26);
+  margin-right: 30px;
+  font-size: 30px;
+  text-shadow: 2px 2px 15px #1d7033;
+}
+.about-us1-1 h1{
+  font-size: 30px;
+  font-family: 'BPG Nuskha Modern';
+  text-shadow: -5px 7px 14px rgb(53, 44, 44);}
+.about-us2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.about-us1 img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 50px 150px;
+  box-shadow: -2px -5px 15px rgb(3, 66, 3);
+  transition: all 1s linear;
+}
+.about-us1 img:hover {
+  max-width: 600px;
+  box-shadow: -2px -5px 15px rgb(172, 11, 6);
+}
+.we-offer {
+  max-width: 400px;
+  width: 100%;
+}
+.we-offer img{
+  width: 100%;
+  border-radius: 54% 46% 38% 62% / 67% 60% 40% 33%;
+  box-shadow: -8px 5px 15px rgb(3, 66, 3);
+  transition: all 1s linear;
+}
+.we-offer img:hover {
+  width: 120%;
+  box-shadow: -2px -5px 15px rgb(172, 11, 6);
+}
+.fa-hand-point-down {
+  color: white;
+  font-size: 25px;
+}
+.us-title {
+  max-width: 220px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 2px 2px 7px #1d7033;
+}
